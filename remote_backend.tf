@@ -4,8 +4,8 @@
 
 terraform {
   backend "remote" {
+    hostname = "app.terraform.io"
     organization = "terraformbootcamp"
-
     workspaces {
       name = "hashicat-aws"
     }
